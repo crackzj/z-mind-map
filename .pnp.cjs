@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@svgdotjs/svg.js", "npm:3.1.1"],
             ["clean-webpack-plugin", "virtual:e4c20f1256e81f5462b96a4a2b4915faf143a791b9303027be2aab9b2b17ef83b0667a2254a3b325a9a4f300d4951760cfc1a36d8d1211e513172eae7855492a#npm:4.0.0"],
             ["ts-loader", "virtual:e4c20f1256e81f5462b96a4a2b4915faf143a791b9303027be2aab9b2b17ef83b0667a2254a3b325a9a4f300d4951760cfc1a36d8d1211e513172eae7855492a#npm:9.2.6"],
             ["typescript", "patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=ddd1e8"],
@@ -49,6 +50,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@discoveryjs-json-ext-npm-0.5.5-595932ce4b-40844548d8.zip/node_modules/@discoveryjs/json-ext/",
           "packageDependencies": [
             ["@discoveryjs/json-ext", "npm:0.5.5"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@svgdotjs/svg.js", [
+        ["npm:3.1.1", {
+          "packageLocation": "./.yarn/cache/@svgdotjs-svg.js-npm-3.1.1-7b81f86161-0de4a9b23e.zip/node_modules/@svgdotjs/svg.js/",
+          "packageDependencies": [
+            ["@svgdotjs/svg.js", "npm:3.1.1"]
           ],
           "linkType": "HARD",
         }]
@@ -1902,6 +1912,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["z-mind-map", "workspace:."],
+            ["@svgdotjs/svg.js", "npm:3.1.1"],
             ["clean-webpack-plugin", "virtual:e4c20f1256e81f5462b96a4a2b4915faf143a791b9303027be2aab9b2b17ef83b0667a2254a3b325a9a4f300d4951760cfc1a36d8d1211e513172eae7855492a#npm:4.0.0"],
             ["ts-loader", "virtual:e4c20f1256e81f5462b96a4a2b4915faf143a791b9303027be2aab9b2b17ef83b0667a2254a3b325a9a4f300d4951760cfc1a36d8d1211e513172eae7855492a#npm:9.2.6"],
             ["typescript", "patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=ddd1e8"],
