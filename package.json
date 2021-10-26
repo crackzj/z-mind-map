@@ -1,10 +1,17 @@
 {
-  "name": "test-ts",
-  "version": "0.0.1-beta.1",
+  "name": "z-mind-map",
+  "version": "0.0.1-beta.2",
   "description": "mind map",
   "packageManager": "yarn@3.1.0",
   "main": "src/main.ts",
   "module": "z-mind-map/z-mind-map.js",
+  "files": ["z-mind-map"],
+  "exports":{
+    ".": {
+      "import": "./z-mind-map/z-mind-map.js",
+      "require": "./z-mind-map/z-mind-map.js"
+    }
+  },
   "keywords": ["mind-map","z-mind-map","思维导图","脑图"],
   "author": "crackzj",
   "license": "MIT",
