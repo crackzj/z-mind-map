@@ -6,6 +6,7 @@
 	  "target": "es6",
 	  "allowJs": true,	 
 	  "removeComments": true,
+    "moduleResolution": "node"
 	},
 	"exclude": ["node_modules"]
 }

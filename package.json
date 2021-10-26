@@ -1,6 +1,6 @@
 {
   "name": "z-mind-map",
-  "version": "0.0.1-beta.2",
+  "version": "0.0.1-beta.3",
   "description": "mind map",
   "packageManager": "yarn@3.1.0",
   "main": "src/main.ts",
@@ -8,6 +8,8 @@
   "files": [
     "z-mind-map"
   ],
+  "type": "module",
+  "types": "src/types/",
   "exports": {
     ".": {
       "import": "./z-mind-map/z-mind-map.js",
@@ -35,4 +37,5 @@
   "dependencies": {
     "@svgdotjs/svg.js": "^3.1.1"
   }
+  
 }
