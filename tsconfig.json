@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+	  "outDir": "./z-mind-map/",
+	  "noImplicitAny": true,
+	  "module": "es6",
+	  "target": "es6",
+	  "allowJs": true,	 
+	  "removeComments": true,
+	},
+	"exclude": ["node_modules"]
+}
